@@ -21,3 +21,5 @@
 BASE_URL = "http://www.litemall360.com:8080"   # 系统接口域名
 WEB_URL = "http://www.litemall360.com:8082"    # 商城前端地址
 ADMIN_URL = "http://www.litemall360.com:8081"  # 管理后台地址
+
+allure serve report # 运行完后在终端输入获取报告

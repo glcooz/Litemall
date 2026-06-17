@@ -1,0 +1,12 @@
+# ===== 屏蔽本地缓存和IDE配置（坚决不上传） =====
+.idea/
+.pytest_cache/
+__pycache__/
+
+# ===== 屏蔽Python编译缓存 =====
+*.pyc
+*.pyo
+
+# ===== 屏蔽系统垃圾文件 =====
+.DS_Store
+Thumbs.db

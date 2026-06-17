@@ -1,5 +1,5 @@
 # 轻商城 (Litemall) 接口自动化测试项目
-本项目是基于 **Pytest** 框架的轻商城（Litemall）商城系统接口自动化测试套件，覆盖了首页、注册、登录、搜索、购物车、订单、地址管理、收藏等核心业务场景。
+本项目是基于**Pytest**框架的轻商城（Litemall）商城系统接口自动化测试套件，覆盖了首页、注册、登录、搜索、购物车、订单、地址管理、收藏等核心业务场景。
 
 ## 项目结构
 .
@@ -17,9 +17,10 @@
 ├── 轻商城litemall.xlsx # 接口测试用例数据
 └── 轻商城接口测试.xmind # 测试用例思维导图
 
-# 示例配置
+## 地址配置
 BASE_URL = "http://www.litemall360.com:8080"   # 系统接口域名
 WEB_URL = "http://www.litemall360.com:8082"    # 商城前端地址
 ADMIN_URL = "http://www.litemall360.com:8081"  # 管理后台地址
 
-allure serve report # 运行完后在终端输入获取报告
+## 运行完后在终端输入获取报告
+allure serve report
